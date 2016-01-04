@@ -21,6 +21,14 @@ You can install CakePHP into your project using
 recommend using the [app skeleton](https://github.com/cakephp/app) as
 a starting point. For existing applications you can run the following:
 
+##LinuxBasedSystem Installation
+1. update the package manager `sudo apt-get update`
+2. install the dependencies  `sudo apt-get install curl php5-cli git`
+3. Composer installation as a system-wide  `curl -sS https://getcomposer.org/installer | sudo php -- --install-dir=/usr/local/bin --filename=composer`
+4. test your installation `$composer`
+
+
+
 ``` bash
 $ composer require cakephp/cakephp:"~3.1"
 ```
